@@ -1,0 +1,184 @@
+html {
+	margin: 0;
+	padding: 0;
+	background: url(images/background.jpeg) no-repeat center center fixed;
+	font-size: 13px;
+}
+a{
+	text-decoration: none;
+	color: #DFDFDF;
+	font-style: sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	background-color: white;
+	padding: 60px;
+	width: 700px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav {
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	flex-basis: 315px;
+}
+
+nav > .button {
+	width: 135px;
+	padding: 5px;
+	border:0.5px solid #99b415;
+	border-radius: 5px;
+	background-color: #a5c603;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+main {
+	/*height: 300px;*/
+}
+
+.inputinfo{
+	display: flex;
+	/*flex-direction: column;*/
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+.info {
+	flex-basis: 45%;
+	display: flex;
+	flex-direction: column;
+}
+.info > * {
+	background-color:#dfdfdf;
+}
+
+.info > select {
+	opacity:0.7;
+	font-weight: 500;
+}
+
+.info > textarea{
+	text-indent: 0;
+	flex:1;
+	resize: none;
+}
+
+
+.alert {
+	height: 35px;
+	padding-left: 5px;
+	line-height: 35px;
+	border-radius: 5px;
+	background-color: #F2DEDE;
+	color: #A94442;
+	border-color: #A94442;
+
+}
+
+footer {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer.right {
+	display: flex;
+	align-items: center;
+}
+
+.login{
+	display: flex;
+	flex-direction: column;
+}
+.loginfo{
+	display:flex;
+}
+
+.loginfo > label {
+	align-self: center;
+	flex-basis: 15%;
+}
+.loginfo > input {
+	flex:1;
+}
+
+.login >input[type="submit"]{
+    width: 425px;
+    align-self: flex-end;
+}
+
+
+.container-login{
+	width: 500px;
+	padding:35px;
+}
+
+.header-login {
+	align-self: center;
+}
+
+.books {
+	display:flex;
+	flex-wrap: wrap;
+	background-color:#432712;
+	justify-content: center;
+	border-radius: 25px;
+}
+
+.book-wrapper {
+	margin: 20px 5px;
+	background-color: #B3874D80;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-basis: 30%;
+
+}
+.pagination {
+	align-self: center;
+}
+
+.pagination > a {
+	color: #2D375C;
+}
+
+
+
+.thumb-cover >img {
+	width: 100px;
+	height:100px;
+}
+
+.bookinfo > *{
+	margin:0;
+}
+
+.book{
+	display: flex;
+}
+
+.cover >img {
+	width: 200px;
+	height: 300px;
+	margin-right: 10px;
+}
+.resume {
+	text-indent: 30px;
+	text-align: justify;
+}
+.bookinfo>*{
+	padding:4px 0;
+}
